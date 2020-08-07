@@ -18,6 +18,10 @@ If you have suggestions for how gh-workflow-bot could be improved, or want to re
 
 For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
+## Credits
+
+Business vector created by [freepik](https://www.freepik.com/free-photos-vectors/business)
+
 ## License
 
 [ISC](LICENSE) © 2020 Grega Vrbančič <grega.vrbancic@gmail.com>
