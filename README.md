@@ -4,6 +4,9 @@
 
 # GitHub Workflow Bot
 
+![Test](https://github.com/GregaVrbancic/gh-workflow-bot/workflows/Test/badge.svg)
+[![codecov](https://codecov.io/gh/GregaVrbancic/gh-workflow-bot/branch/master/graph/badge.svg?token=25JD6QCFOE)](https://codecov.io/gh/GregaVrbancic/gh-workflow-bot)
+
 > A GitHub App built with [Probot](https://github.com/probot/probot) that triggers GitHub workflows on command.
 
 ## Usage
