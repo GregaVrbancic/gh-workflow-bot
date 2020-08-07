@@ -11,16 +11,19 @@
   "keywords": [
     "probot",
     "github",
-    "probot-app"
+    "probot-app",
+    "github workflow"
   ],
   "scripts": {
     "dev": "nodemon",
-    "start": "probot run ./index.js",
-    "lint": "standard --fix",
-    "test": "jest && standard",
-    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
+    "start": "probot run ./src/index.js",
+    "check-lint": "standard",
+    "fix-lint": "standard --fix",
+    "test": "jest test/* --coverage && standard",
+    "test:watch": "jest test/* --watch --notify --notifyMode=change --coverage"
   },
   "dependencies": {
+    "outdent": "^0.7.1",
     "probot": "^9.5.3"
   },
   "devDependencies": {
