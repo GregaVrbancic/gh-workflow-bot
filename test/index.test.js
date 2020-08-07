@@ -120,9 +120,9 @@ describe('gh-workflow-bot app', () => {
         outdent`
         Hey @GregaVrbancic, here are some tasks I can do for you:
 
-        @ghworkflow help
-        @ghworkflow trigger <workflow-name>
-        @ghworkflow list workflows
+        \`@ghworkflow help\`
+        \`@ghworkflow trigger <workflow-name>\`
+        \`@ghworkflow list workflows\`
         `
     }
 
@@ -167,9 +167,9 @@ describe('gh-workflow-bot app', () => {
 
         Here are some tasks I can do for you:
 
-        @ghworkflow help
-        @ghworkflow trigger <workflow-name>
-        @ghworkflow list workflows
+        \`@ghworkflow help\`
+        \`@ghworkflow trigger <workflow-name>\`
+        \`@ghworkflow list workflows\`
         `
     }
 
