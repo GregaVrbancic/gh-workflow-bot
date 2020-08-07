@@ -41,9 +41,9 @@ async function ghWorkflowBot (context) {
             outdent`
             Hey @${context.payload.comment.user.login}, here are some tasks I can do for you:
 
-            @ghworkflow help
-            @ghworkflow trigger <workflow-name>
-            @ghworkflow list workflows
+            \`@ghworkflow help\`
+            \`@ghworkflow trigger <workflow-name>\`
+            \`@ghworkflow list workflows\`
             `
         })
         return context.github.issues.createComment(issueComment)
@@ -68,9 +68,9 @@ async function ghWorkflowBot (context) {
 
             Here are some tasks I can do for you:
 
-            @ghworkflow help
-            @ghworkflow trigger <workflow-name>
-            @ghworkflow list workflows
+            \`@ghworkflow help\`
+            \`@ghworkflow trigger <workflow-name>\`
+            \`@ghworkflow list workflows\`
             `
         })
         return context.github.issues.createComment(issueComment)

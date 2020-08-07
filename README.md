@@ -1,8 +1,10 @@
+<p align="center">
+  <img src="assets/logo.png" alt="gh-workflow-logo" />
+</p>
+
 # GitHub Workflow Bot
 
 > A GitHub App built with [Probot](https://github.com/probot/probot) that triggers GitHub workflows on command.
-
-![gh-workflow-bot logo](assets/logo.png)
 
 ## Usage
 
