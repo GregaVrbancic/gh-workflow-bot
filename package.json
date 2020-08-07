@@ -59,7 +59,7 @@
     "access": "restricted"
   },
   "release": {
-    "branches": ["master", "releases"],
+    "branches": ["releases"],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/changelog",
