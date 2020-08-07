@@ -1,6 +1,6 @@
 {
   "name": "gh-workflow-bot",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "private": true,
   "description": "GitHub Workflow Bot",
   "author": "Grega Vrbančič <grega.vrbancic@gmail.com>",
@@ -20,16 +20,20 @@
     "check-lint": "standard",
     "fix-lint": "standard --fix",
     "test": "jest test/* --coverage && standard",
-    "test:watch": "jest test/* --watch --notify --notifyMode=change --coverage"
+    "test:watch": "jest test/* --watch --notify --notifyMode=change --coverage",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "outdent": "^0.7.1",
     "probot": "^9.5.3"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
     "jest": "^24.9.0",
     "nock": "^12.0.0",
     "nodemon": "^2.0.0",
+    "semantic-release": "^17.1.1",
     "smee-client": "^1.1.0",
     "standard": "^14.3.1"
   },
@@ -50,5 +54,19 @@
   },
   "jest": {
     "testEnvironment": "node"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "release": {
+    "branches": ["master", "releases"],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/changelog",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/git",
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
   }
 }
