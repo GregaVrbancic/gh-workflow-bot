@@ -1,7 +1,7 @@
 {
   "name": "gh-workflow-bot",
   "version": "0.0.0-development",
-  "private": true,
+  "private": false,
   "description": "GitHub Workflow Bot",
   "author": "Grega Vrbančič <grega.vrbancic@gmail.com>",
   "license": "ISC",
@@ -21,7 +21,7 @@
     "fix-lint": "standard --fix",
     "test": "jest test/* --coverage && standard",
     "test:watch": "jest test/* --watch --notify --notifyMode=change --coverage",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release -d"
   },
   "dependencies": {
     "outdent": "^0.7.1",
@@ -59,7 +59,7 @@
     "access": "restricted"
   },
   "release": {
-    "branches": ["master", "releases"],
+    "branches": ["master"],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/changelog",
