@@ -21,7 +21,7 @@
     "fix-lint": "standard --fix",
     "test": "jest test/* --coverage && standard",
     "test:watch": "jest test/* --watch --notify --notifyMode=change --coverage",
-    "semantic-release": "semantic-release -d"
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "outdent": "^0.7.1",
