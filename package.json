@@ -1,6 +1,6 @@
 {
   "name": "gh-workflow-bot",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "private": false,
   "description": "GitHub Workflow Bot",
   "author": "Grega Vrbančič <grega.vrbancic@gmail.com>",
@@ -59,7 +59,9 @@
     "access": "public"
   },
   "release": {
-    "branches": ["master"],
+    "branches": [
+      "master"
+    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
