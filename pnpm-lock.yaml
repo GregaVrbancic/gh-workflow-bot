@@ -5,7 +5,7 @@ devDependencies:
   '@semantic-release/changelog': 5.0.1_semantic-release@17.1.1
   '@semantic-release/git': 9.0.0_semantic-release@17.1.1
   jest: 26.2.2
-  nock: 12.0.3
+  nock: 13.0.3
   nodemon: 2.0.4
   semantic-release: 17.1.1_semantic-release@17.1.1
   smee-client: 1.1.0
@@ -4608,7 +4608,6 @@ packages:
     resolution:
       integrity: sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
   /lodash.set/4.3.2:
-    dev: false
     resolution:
       integrity: sha1-2HV7HagH3eJIFrDWqEvqGnYjCyM=
   /lodash.sortby/4.7.0:
@@ -4980,17 +4979,17 @@ packages:
   /nice-try/1.0.5:
     resolution:
       integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
-  /nock/12.0.3:
+  /nock/13.0.3:
     dependencies:
       debug: 4.1.1
       json-stringify-safe: 5.0.1
-      lodash: 4.17.19
+      lodash.set: 4.3.2
       propagate: 2.0.1
     dev: true
     engines:
       node: '>= 10.13'
     resolution:
-      integrity: sha512-QNb/j8kbFnKCiyqi9C5DD0jH/FubFGj5rt9NQFONXwQm3IPB0CULECg/eS3AU1KgZb/6SwUa4/DTRKhVxkGABw==
+      integrity: sha512-hDscKS5chEfyEiF8J1syz8mkkH6Wetp04ECAAPNdL5k6e6WmRgx9FZZNnCrjePNdykgiiPXORBcXbNmMzFOP5w==
   /node-emoji/1.10.0:
     dependencies:
       lodash.toarray: 4.4.0
@@ -7555,7 +7554,7 @@ specifiers:
   '@semantic-release/changelog': ^5.0.1
   '@semantic-release/git': ^9.0.0
   jest: ^26.2.2
-  nock: ^12.0.0
+  nock: ^13.0.3
   nodemon: ^2.0.0
   outdent: ^0.7.1
   probot: ^9.5.3
