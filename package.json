@@ -24,7 +24,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "outdent": "^0.7.1",
+    "outdent": "^0.8.0",
     "probot": "^9.5.3"
   },
   "devDependencies": {
