@@ -33,7 +33,7 @@
     "jest": "^26.2.2",
     "nock": "^13.0.3",
     "nodemon": "^2.0.0",
-    "semantic-release": "^17.1.1",
+    "semantic-release": "^19.0.2",
     "smee-client": "^1.1.0",
     "standard": "^14.3.1"
   },
