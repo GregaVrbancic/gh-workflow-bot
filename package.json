@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "outdent": "^0.7.1",
-    "probot": "^9.5.3"
+    "probot": "^12.2.4"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
